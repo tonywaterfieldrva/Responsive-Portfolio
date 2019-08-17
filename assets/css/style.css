@@ -1,0 +1,313 @@
+/*  style.css sheet for portfolio assignment */
+* {
+    box-sizing: border-box;
+  }
+.border-box {
+  width: auto;
+}
+  .wrapper {
+    /* Box-model */
+    width: 1024px;
+  
+    /* Positioning */
+ /*   margin: 40px auto; */
+  }
+.header {
+    font-size: 30px;
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    margin-left: 195px;
+  }
+
+.links {
+    font-size: 15px;
+    padding-top: 35px;
+    text-align: right;
+    margin-right: 400px;
+    width: 100%;   
+}
+
+.box-body {
+        width: 100%;
+        height: 500px;
+        box-align: center;
+        border: 1px solid gray;
+        margin-top: 40px;
+        margin-left: 195px;
+        background-color: lightgrey;
+        border-bottom-color: #4aaaa5;
+        border-bottom-width: 8px;
+}       
+
+
+
+.box-about-me {
+    width: 960px;
+    box-align: center;
+    border: 1px solid gray;
+    margin: auto;
+    margin-top: 40px;
+    background-color: #ffffff;
+    padding: 20px 50px 20px 50px;
+ }
+
+ .box-portfolio {
+    width: 960px;
+    box-align: center;
+    border: 1px solid gray;
+    margin: auto;
+    margin-top: 40px;
+    background-color: #ffffff;
+    padding: 20px 50px 340px 50px;
+ }
+
+ .box-contact {
+    width: 960px;
+    box-align: center;
+    border: 1px solid gray;
+    margin: auto;
+    margin-top: 40px;
+    background-color: #ffffff;
+    padding: 20px 50px 20px 50px;
+ }
+
+img {
+    float: left;
+    margin-right: 20px;
+    padding-bottom: 15px;
+}
+
+h1 {
+    font-size: 30px;
+    color:  #4aaaa5;
+}
+
+hr {
+    width: 100%;
+    height: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgrey;
+}
+
+.box-footer {
+    width: 100%;
+    height: 50px;
+    box-align: center;
+    border: 1px solid gray;
+    margin-left: 195px;
+    background-color: #777;
+    margin-top: 0px;
+} 
+
+/* FORMATTING FOR CONTACT.HTML INPUT BOXES  */
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+    
+  }
+
+  input[name=message], select {
+      width: 100%;
+      height: 85px;       
+      word-wrap: normal;
+
+  }
+
+  button {
+       color:  #4aaaa5;
+       height: 40px;
+       width: 80px;
+       font-weight: bold;
+
+  }
+
+  button:hover {
+        cursor: pointer;
+        font-style: italic;
+        
+
+  }
+
+  @media screen and (max-width: 980px) {
+ 
+    .wrapper {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+    .border-box {
+      width: auto;
+    }
+    .header {
+        float: left;
+        text-align: center;
+        padding: 0px 20px 0px 20px;
+        margin-left: 40px;
+      }
+    
+    .links {
+        padding-top: 35px;
+        text-align: right;
+        margin-right: 400px;
+        width: 100%;   
+    }
+    .box-body {
+        width: 60%;
+        height: auto;
+        box-align: center;
+      margin-top: 40px;
+        margin-left: 40px;
+        border-bottom-width: 8px;
+}       
+
+.box-about-me {
+    width: 90%;
+    box-align: center;
+    margin: 10;
+    margin-top: 40px;
+    padding: 20px 50px 20px 50px;
+ }
+ .box-portfolio {
+  width: 90%;
+  box-align: center;
+  margin: auto;
+  margin-top: 40px;
+ padding: 20px 50px 340px 50px;
+}
+ .box-footer {
+    width: 100%;
+    height: 50px;
+    box-align: center;
+    border: 1px solid gray;
+    margin-left: 40px;
+    background-color: #777;
+    margin-top: 0px;
+} 
+
+}
+@media screen and (max-width: 768px) {
+
+    .wrapper {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+    .border-box {
+      width: auto;
+    }
+    .header {
+        font-size: 30px;
+        float: left;
+        text-align: center;
+        padding: 0px 20px 0px 20px;
+        margin-left: 40px;
+        width: auto;
+      }
+    
+    .links {
+        padding-top: 35px;
+        text-align: right;
+        margin: auto;
+        width: auto;   
+    }
+    .box-body {
+        width: auto;
+        height: auto;
+        box-align: center;
+        margin-top: 40px;
+        margin-left: 40px;
+        border-bottom-width: 8px;
+}       
+
+.box-about-me {
+    width: 90%;
+    box-align: center;
+    margin: 10;
+    margin-top: 40px;
+    padding: 20px 50px 20px 50px;
+ }
+ .box-portfolio {
+  width: 90%;
+  box-align: center;
+  margin: auto;
+  margin-top: 40px;
+ padding: 20px 50px 340px 50px;
+}
+ .box-footer {
+    width: auto;
+    height: 50px;
+    box-align: center;
+    margin-left: 40px;
+    margin-top: 0px;
+} 
+
+}
+@media screen and (max-width: 640px) {
+
+    .wrapper {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+    .border-box {
+      width: auto;
+    }
+    .header {
+        font-size: 30px;
+        text-align: center;
+        padding: 0px 20px 0px 20px;
+        margin-left: auto;
+        width: auto;
+      }
+    
+    .links {
+        overflow: auto;
+        clear: both;
+        padding-top: 10px;
+        text-align: center;
+        margin: auto;
+        width: auto;    
+    }
+    .box-body {
+        width: auto;
+        height: auto;
+        box-align: center;
+        margin-top: 40px;
+        margin-left: 40px;
+        border-bottom-width: 8px;
+}       
+
+.box-about-me {
+    width: 90%;
+    box-align: center;
+    margin: 10;
+    margin-top: 40px;
+  
+ }
+ .box-portfolio {
+  width: 60%;
+  height: auto;
+  box-align: center;
+  margin: auto;
+  margin-top: 40px;
+ padding: 20px 50px 340px 50px;
+
+}
+ .box-footer {
+    width: auto;
+    margin-left: 40px;
+    margin-top: 0px;
+} 
+
+}
