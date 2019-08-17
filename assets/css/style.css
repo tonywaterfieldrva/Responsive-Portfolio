@@ -264,6 +264,7 @@ input[type=text], select {
       width: auto;
     }
     .header {
+        position: static;
         font-size: 30px;
         text-align: center;
         padding: 0px 20px 0px 20px;
